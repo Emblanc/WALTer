@@ -68,5 +68,5 @@ def test_combi_params_error():
     index_table_test = read_itable("combi_params_error/index-table.json")
     if os.path.exists('combi_params_error'):
         rmtree('combi_params_error')
-    assert len(index_table_test) == 2
+    assert len(index_table_test) == 4
 
